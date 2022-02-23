@@ -10,7 +10,7 @@ body{
 }
 
 .container{
-    width: 1000px;
+    width: 1100px;
     margin: 0 auto;
 }
 
@@ -34,19 +34,19 @@ h1{
 }
 
 .number{
-    background-color: #0d2481;
+    background-color: #000080;
 }
 
 .fizz{
-    background-color: #255ee9;
+    background-color: #FFB5C5;
 }
 
 .buzz{
-    background-color: #0d3e35;
+    background-color: #FF69B4;
 }
 
 .fizzbuzz{
-    background-color: #ff1c1c;
+    background-color: #9400D3;
 }
 
 
