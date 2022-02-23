@@ -4,3 +4,46 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #bebcbb;
+
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+}
+
+.item-number{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 80px;
+    height: 80px;
+    margin: .5em;
+    background-color: #0d2481;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.fizz{
+    background-color: #255ee9;
+}
+
+.buzz{
+    background-color: #0d3e35;
+}
+
+.fizzbuzz{
+    background-color: #ff1c1c;
+}
+
+
