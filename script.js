@@ -13,11 +13,11 @@ for (let i = 1; i <= 100; i++) {
     } else if (i % 5 == 0) {
         item.classList.add('buzz')
         item.innerHTML = 'Buzz'
+    
+    } else if(i % (3 * 5) == 0) {
+        item.classList.add('fizzbuzz')
+        item.innerHTML = 'FizzBuzz'
     }
 
-    // } else (i % 15 == 0) {}
-    //     item.classList.add('fizzbuzz')
-    //     item.innerHTML = 'FizzBuzz'
-    
     boxNumber.append(item)
 }
